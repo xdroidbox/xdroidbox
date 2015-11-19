@@ -1,0 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository._xdroidbox" name="xDroid box official Repo" version="1.0" provider-name="Noke">
+	<extension point="xbmc.addon.repository" name="xDroid box official Repo">
+		<info compressed="false">https://raw.github.com/xdroidbox/_xdroidbox/master/addons.xml</info>
+		<checksum>https://raw.github.com/xdroidbox/_xdroidbox/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/kodimexico/miNuevoRepo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>xDroid box official Repo</summary>
+		<description>Instala los Addons de xDroid, repositorio creado por Noke--xDroid team</description>
+		<platform>all</platform>
+	</extension>
+</addon>

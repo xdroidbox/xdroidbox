@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video._xDroid"
+       name="[COLOR blue]_xDroid[/COLOR] 1.0"
+	   version="1.0"
+       provider-name="_xDroid">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>_xDroid</summary>
+    <description lang="en">_xDroid   [COLOR red]NUEVA GENERACION EN STREAMING[/COLOR]
+	 # En cooperacion con:[COLOR red]Keno[/COLOR], [COLOR gold]Kennie[/COLOR], [COLOR WHITE] Mimilie [\COLOR], [COLOR PINK]]Dolly[\COLOR]  y  [COLOR green]Y mi perceverancia[/COLOR],
+	 # Les presentamos el proyecto _xDroid, las mejor calidad en peliculas y series.
+	 # (Agradecemos a [COLOR cyan]Juan 3c[/COLOR], y [COLOR blue]Arturo exjauria[/COLOR] por la colaboración)</description>
+    <disclaimer lang="es">El uso de este Add-on, es  bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository._xdroidbox" name="xDroid box official Repo" version="1.0" provider-name="Noke">
+	<extension point="xbmc.addon.repository" name="xDroid box official Repo">
+		<info compressed="false">https://raw.github.com/xdroidbox/_xdroidbox/master/addons.xml</info>
+		<checksum>https://raw.github.com/xdroidbox/_xdroidbox/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/kodimexico/miNuevoRepo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>xDroid box official Repo</summary>
+		<description>Instala los Addons de xDroid, repositorio creado por Noke--xDroid team</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
